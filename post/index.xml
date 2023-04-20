@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HLDay</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on HLDay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Apr 2023 11:24:10 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No private ipv4 address found</title>
+      <link>/post/linux/private-ip/</link>
+      <pubDate>Wed, 12 Apr 2023 11:24:10 +0800</pubDate>
+      
+      <guid>/post/linux/private-ip/</guid>
+      <description>最近在启动Consul的时候，Consul只返回一条报错信息 1 No private IPv4 address found 直接看代码 consul/builder.go at main · hashicorp/consul (github.com) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 func advertiseAddrFunc(opts LoadOpts,</description>
+    </item>
+    
+    <item>
+      <title>不使用魔法加入Bing ChatGPT候补名单</title>
+      <link>/post/linux/add_bing_chatgpt/</link>
+      <pubDate>Tue, 14 Feb 2023 21:54:49 +0800</pubDate>
+      
+      <guid>/post/linux/add_bing_chatgpt/</guid>
+      <description>不使用魔法加入Bing ChatGPT候补名单</description>
+    </item>
+    
+    <item>
+      <title>GO使用io.TeeReader显示下载进度</title>
+      <link>/post/golang/monitor_download_progress/</link>
+      <pubDate>Mon, 13 Feb 2023 18:37:13 +0800</pubDate>
+      
+      <guid>/post/golang/monitor_download_progress/</guid>
+      <description>通过io.TeeReader显示http下载的下载进度</description>
+    </item>
+    
+    <item>
+      <title>Shell一些tips</title>
+      <link>/post/linux/shell/</link>
+      <pubDate>Tue, 10 Jan 2023 15:38:00 +0800</pubDate>
+      
+      <guid>/post/linux/shell/</guid>
+      <description>使用shell过程中的一些tips</description>
+    </item>
+    
+    <item>
+      <title>在Ubuntu上安装v2ray和smartdns，并在客户端使用proxy上网</title>
+      <link>/post/linux/ubuntu_smartdns_v2ray/</link>
+      <pubDate>Wed, 21 Dec 2022 22:35:08 +0800</pubDate>
+      
+      <guid>/post/linux/ubuntu_smartdns_v2ray/</guid>
+      <description>在Ubuntu Server上安装V2ray客户端，并使用smartdns进行科学上网</description>
+    </item>
+    
+    <item>
+      <title>必应每日一图api接口</title>
+      <link>/post/bing/</link>
+      <pubDate>Mon, 05 Dec 2022 20:25:19 +0800</pubDate>
+      
+      <guid>/post/bing/</guid>
+      <description>必应每日一图api接口文档</description>
+    </item>
+    
+    <item>
+      <title>Go中的错误的懒汉式双重检测单例编程模式带来的思考</title>
+      <link>/post/golang/incorrect-synchronization/</link>
+      <pubDate>Fri, 29 Jul 2022 14:15:05 +0800</pubDate>
+      
+      <guid>/post/golang/incorrect-synchronization/</guid>
+      <description>通过Go代码片段介绍了Go内存模型、CPU缓存一致性协议MESI、Happen Before</description>
+    </item>
+    
+    <item>
+      <title>Defer Panic Recovery</title>
+      <link>/post/golang/defer-panic-recovery/</link>
+      <pubDate>Fri, 24 Jun 2022 14:53:41 +0800</pubDate>
+      
+      <guid>/post/golang/defer-panic-recovery/</guid>
+      <description>Golang defer/panic/recovery功能的原理分析</description>
+    </item>
+    
+    <item>
+      <title>Go调用系统编辑器编辑文件</title>
+      <link>/post/golang/go-open-editor/</link>
+      <pubDate>Tue, 21 Jun 2022 20:19:17 +0800</pubDate>
+      
+      <guid>/post/golang/go-open-editor/</guid>
+      <description>通过go打开一个编辑器，编辑完成后需要处理修改后的文件</description>
+    </item>
+    
+    <item>
+      <title>SQL注入</title>
+      <link>/post/mysql/sql_injection/</link>
+      <pubDate>Wed, 15 Jun 2022 11:33:22 +0800</pubDate>
+      
+      <guid>/post/mysql/sql_injection/</guid>
+      <description>SQL注入是一种Web安全漏洞，允许攻击者干扰应用程序对其数据库的查询。攻击者能够通过注入SQL获取到一些通常情况下无法获取的敏感数据例如其他用户的数据。大多数场景中，攻击者可以修改或者删除这些敏感数据而导致应用产生其他异常。在某些情况下，攻击者可以升级SQL注入攻击，以损害基础服务器或其他后端基础架构，或执行拒绝服务攻击。</description>
+    </item>
+    
+    <item>
+      <title>在树莓派上使用Dockers运行Openwrt并作为主路由器的旁路由</title>
+      <link>/post/linux/openwrt/</link>
+      <pubDate>Fri, 27 May 2022 08:55:20 +0800</pubDate>
+      
+      <guid>/post/linux/openwrt/</guid>
+      <description>在树莓派上直接安装openwrt系统时，使用4G内存时，之后只能占用20%左右，且CPU常年只会占用20%。比较浪费性能。可以考虑采用Docker部署Openwrt的方式，这样既满足要求，也能使用树莓派进行一些其他工作。</description>
+    </item>
+    
+    <item>
+      <title>Linux命令-vmstat</title>
+      <link>/post/linux/vmstat/</link>
+      <pubDate>Wed, 25 May 2022 10:57:56 +0800</pubDate>
+      
+      <guid>/post/linux/vmstat/</guid>
+      <description>Linux指令vmstat用于统计虚拟内存</description>
+    </item>
+    
+    <item>
+      <title>Linux命令-Top</title>
+      <link>/post/linux/top/</link>
+      <pubDate>Wed, 25 May 2022 10:56:51 +0800</pubDate>
+      
+      <guid>/post/linux/top/</guid>
+      <description>Linux top指令使用</description>
+    </item>
+    
+    <item>
+      <title>Command Line Interface Guidelines</title>
+      <link>/post/cli/</link>
+      <pubDate>Fri, 20 May 2022 16:31:59 +0800</pubDate>
+      
+      <guid>/post/cli/</guid>
+      <description>An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.</description>
+    </item>
+    
+    <item>
+      <title>使用V2ray测试代理服务器</title>
+      <link>/post/network/v2ray/</link>
+      <pubDate>Mon, 14 Mar 2022 22:07:06 +0800</pubDate>
+      
+      <guid>/post/network/v2ray/</guid>
+      <description>使用V2ray测试代理服务器</description>
+    </item>
+    
+    <item>
+      <title>一些网站</title>
+      <link>/post/preview/</link>
+      <pubDate>Mon, 14 Mar 2022 20:02:32 +0800</pubDate>
+      
+      <guid>/post/preview/</guid>
+      <description>一些开源网站 网址 说明 Consul 开源服务发现框架 patternfly 前端UI G6 G6图可视化引擎 KubeVela KubeVela,软件交付平台 Jellyfin Jellyfin，家庭影院 Bootstrap 前端UI Kafka Kafka</description>
+    </item>
+    
+    <item>
+      <title>分布式ID生成算法</title>
+      <link>/post/bigdata/id-generator/</link>
+      <pubDate>Sun, 13 Mar 2022 14:09:10 +0800</pubDate>
+      
+      <guid>/post/bigdata/id-generator/</guid>
+      <description>介绍几种常见的id生成算法包括：UUID、自增ID、号段模式、基于Redis的自增ID、雪花算法</description>
+    </item>
+    
+    <item>
+      <title>设计模式-单例模式</title>
+      <link>/post/design-pattern/singleton/</link>
+      <pubDate>Sat, 12 Mar 2022 23:18:54 +0800</pubDate>
+      
+      <guid>/post/design-pattern/singleton/</guid>
+      <description>单例模式是一种创建型设计模式， 让你能够保证一个类只有一个实例， 并提供一个访问该实例的全局节点。</description>
+    </item>
+    
+    <item>
+      <title>GMP调度原理</title>
+      <link>/post/golang/gmp/</link>
+      <pubDate>Wed, 09 Mar 2022 20:59:22 +0800</pubDate>
+      
+      <guid>/post/golang/gmp/</guid>
+      <description>Goroutine 调度器过程及原理</description>
+    </item>
+    
+    <item>
+      <title>MySQL常见变量</title>
+      <link>/post/mysql/mysql%E5%B8%B8%E8%A7%81%E5%8F%98%E9%87%8F/</link>
+      <pubDate>Tue, 08 Mar 2022 18:04:55 +0800</pubDate>
+      
+      <guid>/post/mysql/mysql%E5%B8%B8%E8%A7%81%E5%8F%98%E9%87%8F/</guid>
+      <description>介绍一些MySQL常见变量，以及如何通过sql查询mysql状况</description>
+    </item>
+    
+    <item>
+      <title>MySQL数据复制</title>
+      <link>/post/mysql/mysql%E6%95%B0%E6%8D%AE%E5%A4%8D%E5%88%B6/</link>
+      <pubDate>Tue, 08 Mar 2022 18:04:55 +0800</pubDate>
+      
+      <guid>/post/mysql/mysql%E6%95%B0%E6%8D%AE%E5%A4%8D%E5%88%B6/</guid>
+      <description>MySQL是通用的关系型数据库，一般情况下部署会采用主从模式，主从模式的主库负责数据写入，从库负责数据查询</description>
+    </item>
+    
+    <item>
+      <title>K8S集群网络系统</title>
+      <link>/post/k8s/k8s%E9%9B%86%E7%BE%A4%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 08 Mar 2022 15:51:07 +0800</pubDate>
+      
+      <guid>/post/k8s/k8s%E9%9B%86%E7%BE%A4%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <description>集群网络系统是 Kubernetes 的核心部分，Kubernetes 的宗旨就是在应用之间共享机器。 通常来说，共享机器需要两个应用之间不能使用相同的端口，但是在多个应用开发者之间 去大规模地协调端口是件很困难的事情，尤其是还要让用户暴露在他们控制范围之外的集群级别的问题上。
+动态分配端口也会给系统带来很多复杂度 - 每个应用都需要设置一个端口的参数， 而 API 服务器还需要知道如何将动态端口数值插入到配置模块中，服务也需要知道如何找到对方等等。 与其去解决这些问题，Kubernetes 选择了其他不同的方法。</description>
+    </item>
+    
+    <item>
+      <title>Nginx源码编译安装</title>
+      <link>/post/network/nginx%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Tue, 08 Mar 2022 15:51:07 +0800</pubDate>
+      
+      <guid>/post/network/nginx%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85/</guid>
+      <description>通过源码编译安装nginx</description>
+    </item>
+    
+    <item>
+      <title>PS1提示符</title>
+      <link>/post/linux/ps1%E6%8F%90%E7%A4%BA%E7%AC%A6/</link>
+      <pubDate>Tue, 08 Mar 2022 15:51:07 +0800</pubDate>
+      
+      <guid>/post/linux/ps1%E6%8F%90%E7%A4%BA%E7%AC%A6/</guid>
+      <description>PS1提示符</description>
+    </item>
+    
+    <item>
+      <title>使用RBAC鉴权</title>
+      <link>/post/k8s/%E4%BD%BF%E7%94%A8rbac%E9%89%B4%E6%9D%83/</link>
+      <pubDate>Tue, 08 Mar 2022 15:51:07 +0800</pubDate>
+      
+      <guid>/post/k8s/%E4%BD%BF%E7%94%A8rbac%E9%89%B4%E6%9D%83/</guid>
+      <description>基于角色（Role）的访问控制（RBAC）是一种基于组织中用户的角色来调节控制对 计算机或网络资源的访问的方法</description>
+    </item>
+    
+    <item>
+      <title>工厂模式</title>
+      <link>/post/design-pattern/factory_pattern/</link>
+      <pubDate>Tue, 08 Mar 2022 15:51:07 +0800</pubDate>
+      
+      <guid>/post/design-pattern/factory_pattern/</guid>
+      <description>工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个共同的接口来指向新创建的对象。</description>
+    </item>
+    
+    <item>
+      <title>Raft</title>
+      <link>/post/bigdata/raft/</link>
+      <pubDate>Tue, 08 Mar 2022 14:42:17 +0800</pubDate>
+      
+      <guid>/post/bigdata/raft/</guid>
+      <description>Raft is a consensus algorithm designed as an alternative to the Paxos family of algorithms. It was meant to be more understandable than Paxos by means of separation of logic, but it is also formally proven safe and offers some additional features. Raft offers a generic way to distribute a state machine across a cluster of computing systems, ensuring that each node in the cluster agrees upon the same series of state transitions. It has a number of open-source reference implementations, with full-specification implementations in Go, C++, Java, and Scala. It is named after Reliable, Replicated, Redundant, And Fault-Tolerant.</description>
+    </item>
+    
+  </channel>
+</rss>
